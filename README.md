@@ -37,6 +37,4 @@ After installing the dependencies, you can:
 
 
 
-## App.js
-```javascript
-// Your App.js code here
+
