@@ -1,0 +1,90 @@
+.profile{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.edit-img{
+    display: flex;
+}
+
+.profile img{
+    position: relative;
+    z-index: 1;
+    
+}
+.img-user1{
+    position: absolute;
+    z-index: 2; 
+    width: 85px;
+    left: 50px;
+    top: -38px;
+    height: 85px;
+    border-radius: 50%;
+}
+.img-user2{
+    position: absolute;
+    z-index: 2; 
+    width: 25px;
+    left: 75%;
+    top: 290px;
+    height: 25px;
+    cursor: pointer;
+    color: black;
+    
+}
+.about-user{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto;
+  padding: 4px;
+  
+  
+}
+.grid-item {
+    background-color: rgba(231, 235, 238, 0.8);
+    padding: 15px;
+    font-size: 15px;
+    height:65px;
+    margin-left: 25px;
+    margin-right: 15px;
+    border-radius: 20px;
+  }
+ .grid-item label{
+    font-size: 17px;
+    font-weight: 800;
+    color: rgb(75, 82, 82);
+ }
+ .grid-item p{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(29, 32, 32);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .grid-item h2{
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .foot{
+    margin-top: 50px;
+    height: 35px;
+    width: 100%;
+ }
+ .Logout-but{
+    margin-left: 35px;
+    
+ }
+ .logbutt {
+    height: 40px;
+    width: 90px;
+    background: #1e4925;
+    border: hidden;
+    font-family: 'Prompt', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+ }

@@ -1,0 +1,84 @@
+ .form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.form-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 78%;
+   flex-direction: column;
+}
+.form-box img{
+    height: 40px;
+    width: 40%;
+    position: relative;
+    z-index: 1;
+}
+.form-box form{
+   display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+.label{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input-form{
+    height: 35px;
+    margin-bottom: 5px;
+   font-weight: 500;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.save-but{
+    height: 35px;
+    margin-bottom: 5px;
+    color: white;
+    background: rgb(4, 183, 4);
+    cursor: pointer;
+}
+
+.close-but {
+    position: absolute;
+    z-index:1; 
+    top: 49px;
+    margin-left: 32%;
+    height: 25px;
+    color: white;
+    background: rgb(24, 63, 24);
+    border: none;
+    font-weight: 300;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pupuop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background: rgb(141, 235, 141);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(118, 117, 117);
+}
+.pop-p1{
+    color: rgb(4, 107, 30);
+    font-size: large;
+}
+.pop-p2{
+    text-decoration: none;
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

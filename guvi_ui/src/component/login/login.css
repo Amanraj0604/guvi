@@ -1,0 +1,90 @@
+.login {
+    margin-top: 20px;
+    display: flex;
+}
+
+.login-left {
+    flex: 50;
+}
+
+.login-left img {
+    height: 120%;
+    width: 115%;
+}
+
+.login-right {
+    margin-top: 40px;
+    flex: 50;
+}
+.login-right h1{
+    margin-left: 170px;
+}
+.login-right p{
+    margin-left: 170px;
+}
+.span-text{
+    color: rgb(4, 183, 4);
+    text-decoration: underline;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.login-right form {
+    display: flex;
+    margin-left: 170px;
+    flex-direction: column;
+    width: 500px;  
+}
+.input-data{
+    height: 40px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgb(166, 161, 161);
+    border-radius: 3px;
+   
+}
+.label1{
+    margin-top: 20px;
+    font-size:15;
+    font-weight: 600;
+}
+.user-but{
+    height: 45px;
+    margin-top: 28px;
+    background: rgb(7, 210, 7);
+    border: hidden;
+    color: white;
+    font-weight: 200;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.notification{
+    padding: 15px;
+   
+    margin-left: 50%;
+    background: rgb(135, 206, 135);
+    border: hidden;
+    color: rgb(24, 99, 7);
+    font-weight: 200;
+    font-size: 17px;
+    border-radius: 5px;
+    transition-duration: 2s;
+
+
+}
+
+.pop-p{
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    background: rgb(141, 235, 141);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(118, 117, 117);
+    color: rgb(4, 107, 30);
+    font-size: large;
+    width: 50%;
+}
