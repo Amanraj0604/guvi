@@ -2,8 +2,8 @@
 
 ## Description
 This project is a React-based user interface designed to showcase several components, including authentication, user profiles, and forms, utilizing React Router for navigation.
-
-Just replace `[http://43.205.140.150/](http://43.205.140.150/)` with the appropriate link if needed. This addition provides users with direct access to the live version of your project hosted at the specified URL.
+http://43.205.140.150/
+Just replace `(http://43.205.140.150/)` with the appropriate link if needed. This addition provides users with direct access to the live version of your project hosted at the specified URL.
 
 ## Installation
 To get started with this project, ensure you have Node.js installed. Then, follow these steps:
