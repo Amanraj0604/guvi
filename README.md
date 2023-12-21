@@ -35,18 +35,7 @@ After installing the dependencies, you can:
 - `npm test`: Runs tests.
 - `npm eject`: Ejects the create-react-app configuration.
 
-## Browsers Support
-This project is tested to support the following browsers:
-- Production: >0.2%, not dead, not op_mini all
-- Development: last 1 chrome version, last 1 firefox version, last 1 safari version
 
-## Contributing
-Contributions are welcome! Feel free to submit pull requests or raise issues.
-
-## License
-This project is private and doesn't have a specific license specified.
-
----
 
 ## App.js
 ```javascript
